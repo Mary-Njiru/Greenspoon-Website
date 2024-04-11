@@ -1,5 +1,8 @@
-.main-header{
-    display: flex;
+#main-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: aliceblue;
 }  
 .navbar p{
     margin-right: 80px;
@@ -17,9 +20,10 @@
     color: white;
      height: 4vh;
      padding-bottom: 2px;
-     padding-top: 2px;
+     padding-top: 1px;
     
 }
+
 .P{
     padding-bottom:1px ;
     padding-top: 1px;
@@ -28,6 +32,8 @@
 }
 #input-bar{
     display: flex;
+    margin-left: 10%;
+
 }
 input{
      width: 70%;
@@ -41,7 +47,7 @@ input{
     height: 40px;
 }
 .img3{
-    width: 1650px;
+    width: 1670px;
 
 }
 span{
@@ -56,6 +62,9 @@ h2{
 .Image1{
     margin-left: 90px;
     width: 500px;
+}
+#Page1{
+ margin-top: 10%;   
 }
 #Page2{
     text-align: center;
@@ -127,10 +136,18 @@ h5{
     width: 400px;
     margin: 10px;
 }
+.Baked-snacks{
+    display: flex;
+    gap: 2%;
+}
+.Image9{
+    height: 150px;
+    width: 150px;
+}
 #Page10{
     justify-content: center;
     text-align: center;
 }
 .Image7{
-    justify-content: space-between;
+    justify-content: center;
 }
